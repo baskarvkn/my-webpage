@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do Login Demo</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="login-title">To Do App- Login</h2>
+    <form action="/login" method="post" class="login-form" id="loginForm">
+        <div class="login-box">
+            <label for="username" class="block mb-2">Username:</label>
+            <input class="custom-input mb-4 w-full" type="text" id="username" name="username" required>
+            
+            <label for="password" class="block mb-2">Password:</label>
+            <input class="custom-input mb-4 w-full" type="password" id="password" name="password" required>
+            
+            <button class="custom-btn w-full" type="submit">Login</button>
+        </div>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>
